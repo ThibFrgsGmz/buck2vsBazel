@@ -30,3 +30,9 @@ BUILD FAILED
 Failed to build 'root//:main (prelude//platforms:default#524f8da68ea2a374)'
 Failed to build 'root//:print (prelude//platforms:default#524f8da68ea2a374)'
 ```
+
+
+```sh
+buck2 build //:main
+buck2 run //:main
+```
