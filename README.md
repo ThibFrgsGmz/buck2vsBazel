@@ -5,9 +5,8 @@
 
 https://github.com/facebook/buck2/blob/main/docs/getting_started.md#installing-buck2
 
-> WARNING: Install LLVM i.e. clang & lld:
-
-```sudo apt install clang lld```
+> **Warning**
+> Install LLVM i.e. clang & lld: `sudo apt install clang lld`
 
 Otherwise we have the following error:
 
