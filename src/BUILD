@@ -33,6 +33,16 @@ cc_test(
 )
 
 cc_test(
+    name = "doctest_test",
+    srcs = ["doctest_test.cpp"],
+    defines = ["DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN"],
+    deps = [
+        ":my_lib",
+        "@catch2",
+    ],
+)
+
+cc_test(
     name = "gtest_test",
     srcs = ["gtest_test.cpp"],
     deps = [

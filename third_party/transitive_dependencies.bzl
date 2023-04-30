@@ -10,10 +10,12 @@ package.
 
 load("//third_party/buildtools:transitive.bzl", "load_buildtools_transitive_dependencies")
 load("//third_party/catch2:transitive.bzl", "load_catch2_transitive_dependencies")
+load("//third_party/doctest:transitive.bzl", "load_doctest_transitive_dependencies")
 load("//third_party/gtest:transitive.bzl", "load_gtest_transitive_dependencies")
 
 def load_transitive_dependencies():
     """Load the transitive dependencies of only our direct dependencies"""
     load_buildtools_transitive_dependencies()
     load_catch2_transitive_dependencies()
+    load_doctest_transitive_dependencies()
     load_gtest_transitive_dependencies()
