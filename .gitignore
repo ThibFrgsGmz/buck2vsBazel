@@ -1,1 +1,4 @@
-*buck-out/
+/buck-*
+
+# Bazel build artifacts (symlinks)
+/bazel-*
